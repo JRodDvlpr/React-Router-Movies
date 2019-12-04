@@ -5,6 +5,8 @@ import { BrowserRouter as Router, Router} from 'react-router-dom';
 import './index.css';
 import App from './App';
 
+<Route exact path="/" component={MovieList} />
+
 const rootElement = document.getElementById('root');
 
 ReactDOM.render(
